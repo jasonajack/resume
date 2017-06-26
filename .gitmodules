@@ -1,4 +1,4 @@
 [submodule "markdown-resume"]
   path = markdown-resume
-  url = git@github.com:there4/markdown-resume.git
+  url = git@github.com:jasonajack/markdown-resume.git
   branch = master

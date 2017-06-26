@@ -32,6 +32,7 @@ cd $(dirname ${0})
 #  Available Templates                                                            
 # ————————————————————————————————————————————————————————————————————————————————
 # blockish       Blocky and bold colors
+# jajack         Custome Resume template for Jason Jack
 # modern         Modern and clean layout (default)
 # readable       Bootswatch 'readable' theme
 # swissen        Simple Helvetica based layout from Aaron Glenn
@@ -41,5 +42,5 @@ cd $(dirname ${0})
 curDir=$(readlink -f $(pwd))
 buildDir=${curDir}/build
 mkdir -p ${buildDir}
-./markdown-resume/bin/md2resume pdf --template modern ${curDir}/Resume.md ${buildDir}
+./markdown-resume/bin/md2resume pdf --template jajack ${curDir}/resume.md ${buildDir}
 
