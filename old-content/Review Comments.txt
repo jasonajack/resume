@@ -1,0 +1,38 @@
+Randy Jack
+•	Wow. The extent of your experience is dense. Congrats on that, dude. It's awesome to see all of your accomplishments like that.
+•	As far as parsing this, that's a tough one. You've laid out a lot to discuss in an interview on paper; do you feel like a lot of this could be conversational?
+•	I'd say decide what you feel is your strongest accomplishment and what is more conversational
+•	
+Jeff Berger
+•	Ok so I roll with latex and I pop out a single page PDF
+•	For me it all needs to fit on a single page, forces me to cut shit - I've found noone really reads through that much of it anyway
+•	Jeff: I like your summary lines -if you have anything about working directly with customers or giving presentations I'd make sure to emphasize that in one of your summary lines - honestly finding devs with 8 years of exp is not as hard as finding devs with 8 years of exp who you can trust to talk about things
+Me: Yeah, I have a lot of experience in the former, particularly in my section on Foreign Contracts.
+Jeff: Yeah, emphasize that shit right at the top because that tells people you can make them money not just code
+•	As for your programming languages, and other listed computer skills. I don't think you are going to resasonably list them on a one page resume. I would take the priority of <things you want to work more in at the new job> -> <things you are expert in> -> <buzzwords that are applicable
+•	I would drop your personal projects unless you can link them to open source repos that you have put up
+Yeah I wouldn't devote space to it on the resume, I would make a comment on the bottom that these things are available upon request or the like - so they know they exist
+If you've contributed to other open source projects I would highlight that
+•	
+Jim Casio
+•	The foreign contracts section seems out of place
+•	There's nothing that distinguishes those solutions from the ones listed in the other sections
+•	Describe it in a way that makes these conditions unique from working from people in the opposite coast
+•	Either through huge time zone gaps or working out cultural differences if you encountered anything of the sort
+Josh Bass
+•	
+Evan Armitage
+•	
+Online Forums
+1.	https://www.quora.com/How-can-a-software-engineer-write-a-killer-resume
+
+•	Take out all of the fluff. Don't write things like "interfaced with members of QA" and "worked closely with product managers" -- that just waters down the quality of your resume. On a side note, the "Objective" statement that's found in traditional resumes is usually fluff.
+•	Put the most important things first. If someone is skimming your resume, you want to hook their attention ASAP. If you have a two-page resume and the second page has lots of great content while the first page is boring, then that's a big waste -- most people won't even get to your second page.
+•	Discuss benefits, not features. Your resume is a marketing piece, and you should treat it as such. If you're trying to sell a car, you won't get far by telling people how great the spark plugs are and how it "runs well." Instead, you could talk about how it smoothly handles tight curves at 50mph and how the parts are of such a high quality that the car won't need any scheduled maintenance for the first 10 years.
+Instead, talk about how you improved the performance of something by 25x, or how you reduced the QA cycle from 2 days to 3 hours, or how it took you four months to implement the company's flagship product which is responsible for 45% of all revenue. These are the kinds of benefits that employers drool at.
+•	Technical proficiencies. Listing the twenty languages you've used is pretty standard, but we both know that you'd be most comfortable with a small subset, so try to specify which those are. I don't do this, but some interviewers will pick an area that you've listed on your resume and deep dive on the nuance, and hold it against you when you flounder.
+•	Projects, with technical implementation descriptions. Recruiters look for keywords, engineers look for algorithms, techniques and niche software. "Wrote sorted hash map" is more interesting than "used jsonp for Javascript AJAX UI".
+•	Limit your resume to one page (numerous recommendations to this point)
+•	Include only what you can speak intelligently about. If it's on your resume, it's fair game for deep questioning, and neither you nor your interviewer wants you to be embarrassed. This is less about being truthful (which is already given) and more about choosing content that leads to fruitful discussion.
+•	Keep it relevant Include experience and skills that are relevant to the position. Don’t list outdated and irrelevant technical skills.
+•	
