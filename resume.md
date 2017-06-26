@@ -9,13 +9,13 @@
 ### Summary {#summary}
 
 * Senior Software Engineer
-  : Offering eight years of experience in designing, maintaining, and delivering advanced solutions for MongoDB, MariaDB, and custom built, large-scale Databases.
+  : Offering eight years of experience in designing, maintaining, and delivering advanced solutions for MongoDB, MariaDB, and custom databases.
 
 * Innovative Services Engineer
-  : Contributing to the success of numerous enhancements in DevOps environments and high availability, virtual Developer workspaces with a focus on scalability and security.
+  : Contributing to the success of enhancements in DevOps environments and high availability, virtual developer workspaces, with a focus on scalability and security.
 
 * Dedicated Technical Lead
-  : Managing small to mid-sized teams of engineers through Development, Test and Integration, and product Delivery across multiple DoD contracts.
+  : Managing small to mid-sized teams of engineers through Development, Test and Integration, and product Delivery on multiple DoD contracts.
 
 -------
 
@@ -42,11 +42,12 @@
 ### Experience {#experience}
 
 Lockheed Martin
+
 : *Data Storage Developer* __2009-Current__
   Maintained a custom Java-based Data Storage Service handling Terabytes of streaming sensor data across a distributed network.  Implemented design improvements in multiple iterations of software deliveries within 80% of allocated budgets, and improving read performance by 200% and write performance by 50%.
 
 : *Modern Storage Solutions* __2016-Current__
-  Implemented a new, low-latency video streaming database using Java+Jetty, MongoDB, and HDFS offering a vast improvement over the Java-base storage service in throughput and reduction of latency in per-frame write operations.
+  Implemented a new, low-latency video streaming database using Java+Jetty, MongoDB, and HDFS offering a vast improvement over the Java-based storage service in throughput and reduction of latency in per-frame write operations.
 
 : *Data Storage Lead* __2014-Current__
   Lead team of five developers to deliver enhancements and bugfixes to storage solution, meeting cost and schedule on multiple deliveries under various contracts.

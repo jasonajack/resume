@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash
 
 # Install dependencies
 sudo yum install -y php php-mbstring wkhtmltopdf composer vim firefox

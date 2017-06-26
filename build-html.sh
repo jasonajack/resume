@@ -32,7 +32,7 @@ cd $(dirname ${0})
 #  Available Templates                                                            
 # ————————————————————————————————————————————————————————————————————————————————
 # blockish       Blocky and bold colors
-# jajack         Custome Resume template for Jason Jack
+# jajack         Custom Resume template for Jason Jack
 # modern         Modern and clean layout (default)
 # readable       Bootswatch 'readable' theme
 # swissen        Simple Helvetica based layout from Aaron Glenn
