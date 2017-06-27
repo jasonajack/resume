@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="yes">
+
+<title>Jason Jack | Senior Software and Services Engineer</title>
+<style type="text/css">
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body.pdf {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: normal;
+}
+body.pdf h3 {
+  float: left;
+  width: 16%;
+  font-style: normal;
+}
+body.pdf h3+p {
+  float: left;
+  width: 78%;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+body.pdf ul li {
+  width: 33%;
+  float: left;
+}
+body.pdf ul dl {
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size: 122%;
+  font-weight: normal;
+  margin: 0 0 .75em;
+}
+body.pdf ul dl dd {
+  padding: 0 0 0 0;
+}
+body.pdf ol {
+  float: left;
+  width: 79%;
+  margin: .7em 0 0;
+}
+body.pdf ol li {
+  width: 33%;
+  margin: 0;
+}
+body.pdf ol li:nth-child(3n) {
+  width: 34%;
+}
+body.pdf ol li:nth-child(1),
+body.pdf ol li:nth-child(2),
+body.pdf ol li:nth-child(3) {
+  border-top: none;
+}
+body.pdf dl {
+  margin: .7em 0 0;
+  page-break-inside: avoid !important;
+  display: block;
+  width: 79%;
+  float: left;
+}
+body.pdf dl strong {
+  float: right;
+  margin-top: -2em;
+}
+body.pdf dl em {
+  font-size: 130%;
+  font-style: normal;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font-family: 'Hoefler Text', Times New Roman, Times, serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: whiteSmoke;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a {
+  color: #990003;
+}
+a[href$='.pdf'] {
+  display: inline-block;
+  background: #666;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 10px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.0em;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  font-style: italic;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h3 {
+  margin: 0px 20px;
+  padding: 0 0 .5em;
+  font-size: 150%;
+  font-style: italic;
+  font-weight: normal;
+}
+h3+p {
+  margin: .6em 0 16px;
+  padding: 0;
+  display: block;
+  font-size: 104%;
+  line-height: 24px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dt {
+  font-size: 100%;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  float: left;
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+ol li:nth-child(1) {
+  border-top: none;
+}
+dl {
+  display: inline-block;
+  width: 78%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+  font-size: 140%;
+}
+dl dd {
+  margin: 0 0 1.5em;
+  padding: 0;
+  font-size: 80%;
+  line-height: 1.4em;
+}
+dl strong {
+  display: block;
+}
+dl em {
+  display: block;
+  font-size: 110%;
+  margin: .15em 0 .5em;
+  font-style: bold;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+#education + dl dt {
+  font-size: 110%;
+}
+
+@media screen and (min-width: 37.5em) {
+  body {
+    padding: 2em 0;
+  }
+  blockquote {
+    top: 10px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 57em) {
+  .container {
+    width: 912px;
+  }
+  .resume {
+    position: relative;
+    padding: 40px 50px;
+  }
+  blockquote {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  h3 {
+    float: left;
+    width: 16%;
+  }
+  h3+p {
+    float: left;
+    width: 78%;
+  }
+  ul li {
+    width: 33%;
+    float: left;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+  ul dl dd {
+    padding: 0 2em 0 0;
+  }
+  ol {
+    float: left;
+    width: 79%;
+    margin: .6em 0 0;
+  }
+  ol li {
+    width: 33%;
+    margin: 0;
+  }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
+    border-top: none;
+  }
+  dl {
+    margin: .5em 0 0;
+  }
+  dl strong {
+    float: right;
+    margin-top: -2em;
+  }
+  dl em {
+    font-size: 130%;
+    font-style: normal;
+  }
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <h1>Jason Jack</h1>
+
+<h2>Senior Software and Services Engineer</h2>
+
+<blockquote>
+  <p><a href="jasonajack@gmail.com">jasonajack@gmail.com</a><br />
+  (607) 321-3137</p>
+</blockquote>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<ul>
+<li><dl>
+<dt>Senior Software Engineer</dt>
+<dd>Offering eight years of experience in designing, maintaining, and delivering advanced solutions for MongoDB, MariaDB, and custom databases.</dd>
+</dl></li>
+<li><dl>
+<dt>Innovative Services Engineer</dt>
+<dd>Contributing to the success of enhancements in DevOps environments and high availability, virtual developer workspaces, with a focus on scalability and security.</dd>
+</dl></li>
+<li><dl>
+<dt>Dedicated Technical Lead</dt>
+<dd>Managing small to mid-sized teams of engineers through Development, Test and Integration, and product Delivery on multiple DoD contracts.</dd>
+</dl></li>
+</ul>
+
+<hr />
+
+<h3 id="technical">Technical</h3>
+
+<ol>
+<li>Java &amp; Groovy</li>
+<li>HTML5/CSS3/Javascript</li>
+<li>NodeJS &amp; ReactJS</li>
+<li>C &amp; C++11</li>
+<li>Git &amp; Subversion</li>
+<li>Linux (RHEL, CentOS, Mint)</li>
+<li>MongoDB</li>
+<li>MariaDB</li>
+<li>Gradle, Maven, Make &amp; CMake</li>
+<li>GitLab</li>
+<li>Jenkins</li>
+<li>Docker</li>
+<li>Qemu KVM</li>
+<li>Marathon + Mesos</li>
+<li>oVirt</li>
+</ol>
+
+<hr />
+
+<h3 id="experience">Experience</h3>
+
+<dl>
+<dt>Lockheed Martin</dt>
+<dd>
+<p><em>Data Storage Developer</em> <strong>2009 - Current</strong>
+Maintained a custom Java-based Data Storage Service handling Terabytes of streaming sensor data across a distributed network.  Implemented design improvements in multiple iterations of software deliveries within 80% of allocated budgets, and improving read performance by 200% and write performance by 50%.</p>
+</dd>
+
+<dd>
+<p><em>Modern Storage Solutions</em> <strong>2016 - Current</strong>
+Implemented a new, low-latency video streaming database using Java+Jetty, MongoDB, and HDFS offering a 300% improvement over the Java-based storage service in throughput and reduction of latency in per-frame write operations.  The service was also designed to operate within a Docker container for improved portability, and improved scalability by running in a distributed architecture across the system.</p>
+</dd>
+
+<dd>
+<p><em>Data Storage Lead</em> <strong>2014 - Current</strong>
+Lead team of five developers to deliver enhancements and bugfixes to storage solution, meeting cost and schedule on multiple deliveries under various contracts.</p>
+</dd>
+
+<dd>
+<p><em>Services Lead</em> <strong>2016 - Current</strong>
+Innovated new DevOps environment for a common Development and Production platform for three large-scale DoD contracts using GitLab, Jenkins, Artifactory, Gradle, and Docker.  Lead team of four developers through SCRUM Agile development to create a new environment that functions to scale, and yielded an 85% reduction in build time.</p>
+</dd>
+
+<dd>
+<p><em>Infrastructure Developer</em> <strong>2016 - Current</strong>
+Lead team of Services, Infrastructure, and IT engineers through procurement of cluster hardware to design a RHEL oVirt cluster to improve our DevOps environment.  The approved design will reduce the hardware costs by 50-75% for delivering new products, and increase the High Availability and Data Recovery strategies by immeasurable amounts.</p>
+</dd>
+
+<dd>
+<p><em>Research and Development Engineer</em> <strong>2016 - Current</strong>
+Implemented new data processing cluster using Spark/Hadoop/HDFS, Marathon, Mesos, KVM, Docker, and Open vSwitch, tailor made to optimize performance for large-scale virtualization of Acoustic Intelligence software platforms.  Designed improvements over previous model to increase the cluster durability, interoperability, and scalability as new hardware is added.</p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="awards">Awards</h3>
+
+<dl>
+<dt>Lockheed Martin SPOT Awards</dt>
+<dd>
+<p><em>Modernizing Legacy Code</em> <strong>July 2014</strong>
+Improved code sharing between large contracts which drove down Development costs by migrating legacy software to a modern toolset using Git. Identified common code libraries and refactored them into shared microservices.</p>
+</dd>
+
+<dd>
+<p><em>Product Delivery Improvements</em> <strong>May 2016</strong>
+Improved product delivery methods by leading the effort to implement a build utility which coordinated and executed builds of over 90 Git repositories in proper sequence, and generated build and changelogs for customer review.</p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="education">Education</h3>
+
+<dl>
+<dt>Rochester Institute of Technology</dt>
+<dd><em>Bachelor of Science in Computer Engineering</em> <strong>Rochester, NY - October 2009</strong></dd>
+</dl>
+
+<hr />
+
+    </div>
+</div>
+
+</body>
+</html>
