@@ -254,7 +254,7 @@ body.pdf .container {
 }
 body.pdf .resume {
   position: relative;
-  padding: 40px 80px;
+  padding: 40px 20px 40px 0;
 }
 body.pdf a[href$='.pdf'] {
   display: none;
@@ -275,12 +275,12 @@ body.pdf h2 {
 }
 body.pdf h3 {
   float: left;
-  width: 16%;
+  width: 14%;
   font-style: normal;
 }
-body.pdf h3+p {
+body.pdf h3 + p {
   float: left;
-  width: 78%;
+  width: 82%;
 }
 body.pdf blockquote {
   top: 40px;
@@ -305,7 +305,7 @@ body.pdf ul dl dd {
 }
 body.pdf ol {
   float: left;
-  width: 79%;
+  width: 82%;
   margin: .7em 0 0;
 }
 body.pdf ol li {
@@ -324,7 +324,7 @@ body.pdf dl {
   margin: .7em 0 0;
   page-break-inside: avoid !important;
   display: block;
-  width: 79%;
+  width: 82%;
   float: left;
 }
 body.pdf dl strong {
@@ -367,7 +367,7 @@ ul dl dt {
 }
 .resume {
   position: relative;
-  padding: 10px 20px;
+  padding: 40px 20px 40px 0;
 }
 a {
   color: #990003;
@@ -415,13 +415,13 @@ h2 {
   font-weight: normal;
 }
 h3 {
-  margin: 0px 20px;
+  margin: 0 14px 0;
   padding: 0 0 .5em;
   font-size: 150%;
   font-style: italic;
   font-weight: normal;
 }
-h3+p {
+h3 + p {
   margin: .6em 0 16px;
   padding: 0;
   display: block;
@@ -448,8 +448,8 @@ ul dl dt {
 }
 ul dl dd {
   margin: 0 0 1em;
-  padding: 0 2em 0 0;
-  font-size: .8em;
+  padding: 0 1em 0 0;
+  font-size: 95%;
   line-height: 1.5em;
 }
 ol {
@@ -466,7 +466,7 @@ ol li {
   float: left;
   list-style: none;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
 }
 ol li:nth-child(1) {
   border-top: none;
@@ -485,7 +485,7 @@ dl dt {
 dl dd {
   margin: 0 0 1.5em;
   padding: 0;
-  font-size: 80%;
+  font-size: 100%;
   line-height: 1.4em;
 }
 dl strong {
@@ -506,7 +506,11 @@ dl em {
   text-align: center;
 }
 #education + dl dt {
-  font-size: 110%;
+  font-size: 130%;
+}
+#education + dl em {
+  font-size: 105%;
+  font-style: bold;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -632,15 +636,15 @@ dl em {
 <ul>
 <li><dl>
 <dt>Senior Software Engineer</dt>
-<dd>Offering eight years of experience in designing, maintaining, and delivering advanced solutions for MongoDB, MariaDB, and custom databases.</dd>
+<dd>Eight years of experience in designing and maintaining advanced solutions for MongoDB, MariaDB, and custom databases.</dd>
 </dl></li>
 <li><dl>
 <dt>Innovative Services Engineer</dt>
-<dd>Contributing to the success of enhancements in DevOps environments and high availability, virtual developer workspaces, with a focus on scalability and security.</dd>
+<dd>Innovating enhancements in DevOps environments and high availability, virtual developer workspaces with a focus on scalability and security.</dd>
 </dl></li>
 <li><dl>
 <dt>Dedicated Technical Lead</dt>
-<dd>Managing small to mid-sized teams of engineers through Development, Test and Integration, and product Delivery on multiple DoD contracts.</dd>
+<dd>Managing small teams of engineers through Development, Test and Integration, and product Delivery across multiple DoD contracts.</dd>
 </dl></li>
 </ul>
 
@@ -674,32 +678,27 @@ dl em {
 <dt>Lockheed Martin</dt>
 <dd>
 <p><em>Data Storage Developer</em> <strong>2009 - Current</strong>
-Maintained a custom Java-based Data Storage Service handling Terabytes of streaming sensor data across a distributed network.  Implemented design improvements in multiple iterations of software deliveries within 80% of allocated budgets, and improving read performance by 200% and write performance by 50%.</p>
+Maintained a custom, Java-based Data Storage Service handling Terabytes of streaming sensor data across a distributed network.  Implemented design improvements in multiple iterations of software deliveries within 80% of allocated budgets, and improved read performance by 200% and write performance by 50%.</p>
 </dd>
 
 <dd>
 <p><em>Modern Storage Solutions</em> <strong>2016 - Current</strong>
-Implemented a new, low-latency video streaming database using Java+Jetty, MongoDB, and HDFS offering a 300% improvement over the Java-based storage service in throughput and reduction of latency in per-frame write operations.  The service was also designed to operate within a Docker container for improved portability, and improved scalability by running in a distributed architecture across the system.</p>
-</dd>
-
-<dd>
-<p><em>Data Storage Lead</em> <strong>2014 - Current</strong>
-Lead team of five developers to deliver enhancements and bugfixes to storage solution, meeting cost and schedule on multiple deliveries under various contracts.</p>
+Implemented a new, low-latency video streaming database using Java+Jetty, MongoDB, and HDFS yielding a 300% improvement over the existing storage solution in throughput and latency of write operations.</p>
 </dd>
 
 <dd>
 <p><em>Services Lead</em> <strong>2016 - Current</strong>
-Innovated new DevOps environment for a common Development and Production platform for three large-scale DoD contracts using GitLab, Jenkins, Artifactory, Gradle, and Docker.  Lead team of four developers through SCRUM Agile development to create a new environment that functions to scale, and yielded an 85% reduction in build time.</p>
+Innovated new DevOps environment for a shared Development and Production platform using GitLab, Jenkins, Artifactory, Gradle, and Docker.  Lead team of four developers through SCRUM Agile development, creating an environment that functions to scale, and yields an 85% reduction in build time.</p>
 </dd>
 
 <dd>
 <p><em>Infrastructure Developer</em> <strong>2016 - Current</strong>
-Lead team of Services, Infrastructure, and IT engineers through procurement of cluster hardware to design a RHEL oVirt cluster to improve our DevOps environment.  The approved design will reduce the hardware costs by 50-75% for delivering new products, and increase the High Availability and Data Recovery strategies by immeasurable amounts.</p>
+Lead team of Services, Infrastructure, and IT engineers through procurement of cluster hardware to design a RHEL oVirt system to improve our DevOps environment.  The design reduces hardware costs by 50-75% for delivering new products while improving High Availability and Data Recovery strategies.</p>
 </dd>
 
 <dd>
 <p><em>Research and Development Engineer</em> <strong>2016 - Current</strong>
-Implemented new data processing cluster using Spark/Hadoop/HDFS, Marathon, Mesos, KVM, Docker, and Open vSwitch, tailor made to optimize performance for large-scale virtualization of Acoustic Intelligence software platforms.  Designed improvements over previous model to increase the cluster durability, interoperability, and scalability as new hardware is added.</p>
+Implemented new data processing cluster using Spark/Hadoop, Marathon/Mesos, KVM, Docker, and Open vSwitch, tailored to optimize performance for virtualization of Acoustic Intelligence software platforms.  Designed improvements over previous model to increase cluster durability and scalability as new hardware was added.</p>
 </dd>
 </dl>
 
@@ -711,12 +710,12 @@ Implemented new data processing cluster using Spark/Hadoop/HDFS, Marathon, Mesos
 <dt>Lockheed Martin SPOT Awards</dt>
 <dd>
 <p><em>Modernizing Legacy Code</em> <strong>July 2014</strong>
-Improved code sharing between large contracts which drove down Development costs by migrating legacy software to a modern toolset using Git. Identified common code libraries and refactored them into shared microservices.</p>
+Improved code sharing between large contracts, drove down Development costs by migrating legacy software to a modern toolset using Git.</p>
 </dd>
 
 <dd>
 <p><em>Product Delivery Improvements</em> <strong>May 2016</strong>
-Improved product delivery methods by leading the effort to implement a build utility which coordinated and executed builds of over 90 Git repositories in proper sequence, and generated build and changelogs for customer review.</p>
+Improved product delivery methods by implementing a utility which coordinated and executed builds of over 90 Git repositories in proper sequence, generating build and changelogs for customer review.</p>
 </dd>
 </dl>
 
