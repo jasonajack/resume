@@ -56,7 +56,7 @@ Lockheed Martin
   Lead team of Services, Infrastructure, and IT engineers through procurement of cluster hardware to design a RHEL oVirt system to improve our DevOps environment.  The design reduces hardware costs by 50-75% for delivering new products while improving High Availability and Data Recovery strategies.
 
 : *Research and Development Engineer* __2016 - Current__
-  Implemented new data processing cluster using Spark/Hadoop, Marathon/Mesos, KVM, Docker, and Open vSwitch, tailored to optimize performance for virtualization of Acoustic Intelligence software platforms.  Designed improvements over previous model to increase cluster durability and scalability as new hardware was added.
+  Implemented and maintained an HTML5/CSS and React.js cluster management framework using Node.js, designed to swiftly create, monitor, and manage project-specific virtual systems.  The design integrated with MongoDB for metrics gathering, Marathon/Mesos to control virtual machine applications, Open vSwitch to create isolated networks, and React.js to serve the web frontend views.
 
 ------
 
