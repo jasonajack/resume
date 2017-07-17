@@ -65,7 +65,7 @@ Lockheed Martin
 Lockheed Martin SPOT Awards
 
 : *Modernizing Legacy Code* __July 2014__
-  Improved code sharing between large contracts, drove down Development costs by migrating legacy software to a modern toolset using Git.
+  Improved code sharing between large projects and migrated legacy software to a modern toolset using Git.
 
 : *Product Delivery Improvements* __May 2016__
   Improved product delivery methods by implementing a utility which coordinated and executed builds of over 90 Git repositories in proper sequence, generating build and changelogs for customer review.
