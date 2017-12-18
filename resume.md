@@ -41,21 +41,23 @@
 
 ### Experience {#experience}
 
+Verisign
+
+: *Java Developer* __October, 2017 - Current__
+  Worked as part of a team of Java Developers on a set of database microservices using Java, Gradle for builds, Ansible and TeamCity for deployments, MongoDB, EclipseLink JPA, and Hazelcast.  Met and exceeded all user stories as part of a fast-paced Agile development plan through Q4 2017.
+
 Lockheed Martin
 
-: *Data Storage Developer* __2009 - Current__
+: *Data Storage Developer* __2009 - October, 2017__
   Maintained a custom, Java-based Data Storage Service handling Terabytes of streaming sensor data across a distributed network.  Implemented design improvements in multiple iterations of software deliveries within 80% of allocated budgets, and improved read performance by 200% and write performance by 50%.
 
-: *Modern Storage Solutions* __2016 - Current__
+: *Modern Storage Solutions* __2016 - October, 2017__
   Implemented a new, low-latency video streaming database using Java+Jetty, MongoDB, and HDFS yielding a 300% improvement over the existing storage solution in throughput and latency of write operations.
 
-: *Services Lead* __2016 - Current__
+: *Services Lead* __2016 - October, 2017__
   Innovated new DevOps environment for a shared Development and Production platform using GitLab, Jenkins, Artifactory, Gradle, and Docker.  Lead team of four developers through SCRUM Agile development, creating an environment that functions to scale, and yields an 85% reduction in build time.
 
-: *Infrastructure Developer* __2016 - Current__
-  Lead team of Services, Infrastructure, and IT engineers through procurement of cluster hardware to design a RHEL oVirt system to improve our DevOps environment.  The design reduces hardware costs by 50-75% for delivering new products while improving High Availability and Data Recovery strategies.
-
-: *Research and Development Engineer* __2016 - Current__
+: *Research and Development Engineer* __2016 - October, 2017__
   Implemented and maintained an HTML5/CSS and React.js cluster management framework using Node.js, designed to swiftly create, monitor, and manage project-specific virtual systems.  The design integrated with MongoDB for metrics gathering, Marathon/Mesos to control virtual machine applications, Open vSwitch to create isolated networks, and React.js to serve the web frontend views.
 
 ------
