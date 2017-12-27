@@ -22,20 +22,14 @@
 ### Technical {#technical}
 
 1. Java & Groovy
-1. HTML5/CSS3/Javascript
+1. MongoDB, Oracle, MariaDB
+1. Gradle, Maven, Make, CMake
+1. Glassfish & Tomcat
+1. GitLab & GitHub
+1. Jenkins & TeamCity
+1. Docker, KVM, oVirt
+1. HTML5/CSS3/JS
 1. NodeJS & ReactJS
-1. C & C++11
-1. Git & Subversion
-1. Linux (RHEL, CentOS, Mint)
-1. MongoDB
-1. MariaDB
-1. Gradle, Maven, Make & CMake
-1. GitLab
-1. Jenkins
-1. Docker
-1. Qemu KVM
-1. Marathon + Mesos
-1. oVirt
 
 ------
 
@@ -58,7 +52,7 @@ Lockheed Martin
   Innovated new DevOps environment for a shared Development and Production platform using GitLab, Jenkins, Artifactory, Gradle, and Docker.  Lead team of four developers through SCRUM Agile development, creating an environment that functions to scale, and yields an 85% reduction in build time.
 
 : *Research and Development Engineer* __2016 - October, 2017__
-  Implemented and maintained an HTML5/CSS and React.js cluster management framework using Node.js, designed to swiftly create, monitor, and manage project-specific virtual systems.  The design integrated with MongoDB for metrics gathering, Marathon/Mesos to control virtual machine applications, Open vSwitch to create isolated networks, and React.js to serve the web frontend views.
+  Implemented and maintained an HTML5/CSS and React.js cluster management framework, designed to create, monitor, and manage project-specific virtual systems.  The design integrated NodeJS services with MongoDB for metrics gathering, Marathon/Mesos for VM applications, Open vSwitch for isolated networks, and React.js serving the web frontend views.
 
 ------
 
@@ -70,7 +64,7 @@ Lockheed Martin SPOT Awards
   Improved code sharing between large projects and migrated legacy software to a modern toolset using Git.
 
 : *Product Delivery Improvements* __May 2016__
-  Improved product delivery methods by implementing a utility which coordinated and executed builds of over 90 Git repositories in proper sequence, generating build and changelogs for customer review.
+  Improved product delivery methods by implementing a utility that coordinated and executed builds of over 90 Git repositories in proper sequence.
 
 ------
 
